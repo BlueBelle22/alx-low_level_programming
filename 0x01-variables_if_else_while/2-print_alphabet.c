@@ -5,14 +5,17 @@
  * description: Get a random it with 5
  * Return: 0
  */
+
 int main(void)
 {
-	char c = 'a';
+	char c;
 
-	while (c <= 'z')
-	{	
-		putchar(c);
-		c++;
-	}
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
 	return (0);
+}
