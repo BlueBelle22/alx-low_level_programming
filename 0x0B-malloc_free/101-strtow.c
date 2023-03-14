@@ -44,7 +44,7 @@ char *argstostr(int ac, char **av)
 	return (str);
 }
 
-vi 101-strtow.c
+
 #include <stdlib.h>
 #include "main.h"
 
@@ -88,7 +88,7 @@ char **strtow(char *str)
 
 	while (*(str + len))
 		len++;
-	words = count_word(str);
+
 	if (words == 0)
 		return (NULL);
 
