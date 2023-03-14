@@ -44,7 +44,7 @@ char *argstostr(int ac, char **av)
 	return (str);
 }
 
-vi 101 - strtow.c
+vi 101-strtow.c
 #include <stdlib.h>
 #include "main.h"
 
