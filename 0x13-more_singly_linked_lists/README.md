@@ -1,4 +1,4 @@
-Printing everything nagsain
-0-print list
-1-print list 
-2-print list
+Print more singly linked lists
+0-print lists
+1-print lista 
+2priint lists
